@@ -6,7 +6,67 @@
 <meta name="description" content="First Touch Football Canada — player development, tournaments, combines and player exposure across Canada.">
 <meta name="theme-color" content="#101010">
 <title>First Touch Football Canada | FTF</title>
-<style>
+
+  
+/* FTF PAST EVENTS GALLERY */
+.past-events {
+  background: #101010;
+  color: #ffffff;
+  padding: 65px 20px;
+}
+
+.past-events .section-heading {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.past-events .section-heading h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.past-events .section-heading p {
+  color: #cccccc;
+  font-size: 15px;
+}
+
+.event-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.event-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #292929;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.event-gallery img:hover {
+  transform: scale(1.03);
+  border-color: #f04432;
+}
+
+@media (max-width: 768px) {
+  .event-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .event-gallery img {
+    height: 150px;
+  }
+
+  .past-events .section-heading h2 {
+    font-size: 25px;
+  }
+}
+  <style>
 :root{--black:#101010;--ink:#171717;--red:#e74725;--red2:#c92f19;--white:#fff;--soft:#f5f5f5;--muted:#666;--line:#e5e5e5}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}a{text-decoration:none;color:inherit}.wrap{width:min(1160px,92%);margin:auto}
 header{position:sticky;top:0;z-index:20;background:rgba(12,12,12,.97);color:#fff;border-bottom:1px solid #292929}
@@ -84,6 +144,42 @@ footer{background:#080808;color:#ddd;padding:42px 0 22px}.foot{display:grid;grid
 <details><summary>Does FTF provide player highlight videos?</summary><p>FTF offers player promotion through digital media and video coverage. Contact the team for current service availability and booking details.</p></details>
 </div></section>
 
+<section class="past-events" id="past-events">
+  <div class="container">
+    <div class="section-heading">
+      <h2>OUR PAST EVENTS</h2>
+      <p>Celebrating football, talent, competition and unforgettable moments.</p>
+    </div>
+
+    <div class="event-gallery">
+      <img src="images/1795071039988.jpg" alt="Football event 1" loading="lazy">
+      <img src="images/1795071049173.jpg" alt="Football event 2" loading="lazy">
+      <img src="images/1795071056332.jpg" alt="Football event 3" loading="lazy">
+      <img src="images/1795071060442.jpg" alt="Football event 4" loading="lazy">
+      <img src="images/1795071063291.jpg" alt="Football event 5" loading="lazy">
+      <img src="images/1795071066310.jpg" alt="Football event 6" loading="lazy">
+      <img src="images/1795071070137.jpg" alt="Football event 7" loading="lazy">
+      <img src="images/1795071081418.jpg" alt="Football event 8" loading="lazy">
+      <img src="images/1795071089263.jpg" alt="Football event 9" loading="lazy">
+      <img src="images/1795071092984.jpg" alt="Football event 10" loading="lazy">
+      <img src="images/1795071096729.jpg" alt="Football event 11" loading="lazy">
+      <img src="images/1795071100844.jpg" alt="Football event 12" loading="lazy">
+      <img src="images/1795071103774.jpg" alt="Football event 13" loading="lazy">
+      <img src="images/1795071120135.jpg" alt="Football event 14" loading="lazy">
+      <img src="images/1795071127829.jpg" alt="Football event 15" loading="lazy">
+      <img src="images/1795071132909.jpg" alt="Football event 16" loading="lazy">
+      <img src="images/1795071137307.jpg" alt="Football event 17" loading="lazy">
+      <img src="images/1795071140873.jpg" alt="Football event 18" loading="lazy">
+      <img src="images/1795071145687.jpg" alt="Football event 19" loading="lazy">
+      <img src="images/1795071148160.jpg" alt="Football event 20" loading="lazy">
+      <img src="images/1795071152913.jpg" alt="Football event 21" loading="lazy">
+      <img src="images/1795071158168.jpg" alt="Football event 22" loading="lazy">
+      <img src="images/1795071160622.jpg" alt="Football event 23" loading="lazy">
+      <img src="images/1795071175254.jpg" alt="Football event 24" loading="lazy">
+    </div>
+  </div>
+</section>
+  
 <section class="cta"><div class="wrap"><h2>Take your next step with FTF.</h2><p>Players, families, teams and partners — connect with First Touch Football Canada.</p><a class="btn" href="#contact">CONTACT FTF</a></div></section>
 
 <section id="contact"><div class="wrap split"><div><div class="kicker">Get in touch</div><h2>Let's connect.</h2><p>For event enquiries, program information, player media services, partnerships or general questions, contact the FTF team.</p><p><strong>Headquarters:</strong> Toronto, Ontario, Canada<br><strong>Email:</strong> firsttouchfootballcanadaorg@gmail.com<br><strong>Social media:</strong> Official links to be added</p></div>
